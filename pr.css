@@ -1,0 +1,135 @@
+.container{
+  background: #eee;
+  height: 100%;
+  background-image: url(./images/login_background.jpg);
+  position: relative;
+}
+.container .box{
+  width: 1400px;
+  height: 748px;
+  background-color: rgba(255,255,255,0.7);
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border-radius: 10px;
+}
+.box-top{
+  height: 620px;
+}
+/* -----左边内容区----- */
+.box .content-left{
+  width: 500px;
+  height: 450px;
+  background-color: white;
+  border: 1px solid #eee;
+  box-shadow: 2px 2px 30px #eee ;
+  border-radius: 10px;
+  margin-top: 124px;
+  margin-left: 100px;
+  float: left;
+}
+.content-left .left-title{
+  height: 80px;
+  /* background-color: aqua; */
+  margin: 60px 50px 50px 40px;
+
+}
+.left-title img{
+  height: 80px;
+  width: 100px;
+  padding-right: 20px;
+  vertical-align: top;
+}
+.title-content{
+  height: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  display: inline-block;
+}
+form input{
+  height: 40px;
+  width: 420px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+.input1,.input3{
+  margin-top: 20px;
+}
+.input3 input{
+  width: 240px;
+  float: left;
+}
+.left-input img{
+  width: 150px;
+  height: 40px;
+  padding-left: 30px;
+}
+.left-input input::-webkit-input-placeholder{
+  color: #b8b2b2;
+  font-size: 14px;
+}
+.left-bottom{
+  margin-top: 20px;
+}
+.left-bottom button{
+  height: 40px;
+  width: 198px;
+  margin-left: 40px;
+  border: 1px solid #4d70ff;
+  border-radius: 3px;
+  background-color: #4d70ff;
+  cursor: pointer;
+}
+.left-bottom button:hover{
+  background-color: #0d84ff;
+  border-color: #0d84ff;
+}
+.left-bottom .button1{
+  margin-left: 24px;
+}
+.left-bottom a{
+  font-size: 15px;
+  color: white;
+}
+/* -----右边内容区----- */
+.content-right{
+  height: 450px;
+  width: 600px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.content-right img{
+  margin-left: 100px;
+  margin-top: 120px;
+}
+/* 底部 */
+.foot-img,.foot-copyright{
+  width: 400px;
+  height: 50px;
+  /* background-color: aqua; */
+  margin-left: 500px;
+}
+.foot-img img{
+  height: 30px;
+  width: 30px;
+  float: left;
+
+  margin-top: 10px;
+}
+.foot-img1{
+  margin-right: 91px;
+}
+.foot-copyright p{
+  float: left;
+  font-size: 14px;
+  margin-right: 10px;
+  color: #9b9595;
+}
+.foot-copyright .line{
+  border-left: 1px solid #ddd7d7;
+  float: left;
+  height: 8px;
+  padding-top: 5px;
+  padding-right: 8px;
+}
