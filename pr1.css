@@ -1,0 +1,72 @@
+.box{
+  height: 100%;
+  width: 1440px;
+}
+/* -----左边侧边栏----- */
+.box .box-left{
+  width: 240px;
+  height: 100%;
+  background-color: #191a23;
+  float: left;
+}
+.box-left .left-title{
+  width: 220px;
+  height: 50px;
+  margin: 20px 10px 30px;
+}
+.left-title img{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+  float: left;
+}
+.left-title p{
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.left-list li a{
+  color: white;
+}
+.left-list ul li{
+  padding: 15px 0 25px 20px;
+  font-size: 15px;
+}
+li:hover{
+  width: 220px;
+  height: 10px;
+  background-color: rgb(62, 61, 61);
+}
+.left-list li:visited {
+  background-color: blue;
+  color: blueviolet;
+ }
+ /* 右边内容区 */
+.box .box-right{
+  width: 1200px;
+  height: 100%;
+  display: inline-block;
+  background-color: #f0f2f5;
+}
+.box-right .right-nav{
+  height: 100px;
+  background-color: white;
+}
+.box-right .right-container {
+  height: calc(100% - 100px);
+  overflow-y: auto;
+}
+.box-right .right-content{
+  width: 1160px;
+  height: 800px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+.right-copyright{
+  height: 200px;
+  background-color: blue;
+}
